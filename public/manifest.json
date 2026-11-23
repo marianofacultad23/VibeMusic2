@@ -1,0 +1,17 @@
+{
+  "name": "VibeMusic",
+  "short_name": "VibeMusic",
+  "description": "Reproductor musical profesional para Android con soporte de reproducción en segundo plano y biblioteca local.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090B",
+  "theme_color": "#09090B",
+  "icons": [
+    {
+      "src": "/src/assets/images/vibemusic_app_icon_1795458764760.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

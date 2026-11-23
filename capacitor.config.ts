@@ -1,0 +1,24 @@
+import type { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
+  appId: 'com.vibemusic.app',
+  appName: 'VibeMusic',
+  webDir: 'dist',
+  server: {
+    androidScheme: 'https',
+    cleartext: true,
+  },
+  android: {
+    allowMixedContent: true,
+    captureInput: true,
+    webContentsDebuggingEnabled: true,
+    backgroundColor: '#09090B',
+  },
+  plugins: {
+    App: {
+      disableBackButtonHandler: false,
+    },
+  },
+};
+
+export default config;

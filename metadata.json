@@ -1,0 +1,8 @@
+{
+  "name": "VibeMusic",
+  "description": "Reproductor musical profesional para Android con soporte de reproducción en segundo plano, importación local MP3/WAV y gestión avanzada de biblioteca.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
